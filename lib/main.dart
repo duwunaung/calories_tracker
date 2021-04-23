@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
               title: Text('Calories Tracker'),
             ),
             body: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[
                 Container(
                   width: double.infinity,
